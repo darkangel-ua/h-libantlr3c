@@ -1,0 +1,9 @@
+project libantlr3c : requirements <version>"3.1.1+1" ;
+
+lib libantlr3c 
+   : 
+    [ glob ../src/*.c ] 
+   :
+    @<include>../include 
+    <link>static 
+   ;

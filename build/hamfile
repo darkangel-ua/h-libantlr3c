@@ -1,4 +1,4 @@
-project libantlr3c : requirements <version>"3.1.1+1" ;
+project libantlr3c : requirements <version>3.1.1+2 ;
 
 lib libantlr3c 
    : 
